@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="index.css">
+	<title>Anime</title>
+</head>
+<body>
+	
+	<div class="box">
+		<div class="list">
+			<div class="content">
+				
+				<img src="images/naruto_1.jpg" alt="naruto">
+				<h3>Naruto</h3>
+				<h3>Uzumaki</h3>
+				
+			</div>
+		</div>
+		<div class="list">
+			<div class="content">
+				
+				<img src="images/sasuke_1.png" alt="sasuke">
+				<h3>Sasuke</h3>
+				<h3>Uchiha</h3>
+			</div>
+		</div>
+	</div>
+	<script src="vanilla-tilt.js"></script>
+	<script>
+        VanillaTilt.init(document.querySelectorAll(".list"), {
+          max: 40,
+          speed: 800,
+          glare: true,
+          "max-glare": 2.5,
+        });
+    </script>
+</body>
+</html>
